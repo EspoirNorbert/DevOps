@@ -34,7 +34,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<!--<distributionManagement>
+	<distributionManagement>
 		<repository>
 			<id>central</id>
 			<name>DESKTOP-7ED199M-releases</name>
@@ -45,7 +45,7 @@
 			<name>DESKTOP-7ED199M-snapshots</name>
 			<url>http://localhost:8081/artifactory/myrepo</url>
 		</snapshotRepository>
-	</distributionManagement>-->
+	</distributionManagement>
 
 	<build>
 		<plugins>
@@ -53,7 +53,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			 <!--<plugin>
+			 <plugin>
                     <groupId>org.apache.tomcat.maven</groupId>
                     <artifactId>tomcat7-maven-plugin</artifactId>
                     <version>2.2</version>
@@ -65,7 +65,7 @@
                         <password>tomcatesmt</password>
                         <path>/demo</path>
                     </configuration>
-                </plugin>-->
+                </plugin>
 		</plugins>
 	</build>
 
